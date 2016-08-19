@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: gainsboro;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+nav a {
+    text-decoration: none;
+    color: purple;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+.post-account {
+    display: inline;
+    padding: 10px;
+    line-height: 35px;
+    font-size: 20px;
+    color: purple;
+}
+
+.pagetitle {
+    font-size: 20px;
+    font-weight: 500;
+    float: left;
+    margin-left: 10px;
+}
+
+input[type=text] {
+    width: 400px;
+    height: 30px;
+    font-size: 1.2em;
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 40px;
+}
+
+.next {
+    margin-left: 103px;
+    margin-top: 40px;
+}
+
+.next div {
+    display: inline;
+    box-sizing: border-box;
+    border: 1px solid #d9d9d9;
+    padding: 5px;
+    border-collapse: collapse;
+    
+}
+
+.next-button-left {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.next-button-right {
+    border-bottom-right-radius: 5px; 
+    border-top-right-radius: 5px;
+}
+
+.links {
+    margin-left: 103px;
+    margin-top: 40px;
+}
+
+.links div i,
+.links div span {
+    color: #c4c4c4;
+}
+
+.links div {
+    padding: 7px;
+}
+
+.links div a {
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.links i:hover {
+    color: yellow;
+    transform: scale(1.25, 1.25);
+    transition: all 100ms ease-out;
+    text-shadow: 0 0 3px gray;
+}
